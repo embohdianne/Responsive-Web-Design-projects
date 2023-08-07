@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title id="title">Survey Form</title>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">A SURVEY FORM</h1>
+    <p id="description">Survey Form for Interns at Iknite Space.</p>
+<div id="divider">
+    <form   id="survey-form">
+        <fieldset>
+           <label for="name" id="name-label">name:<input id="name" type="text" Name="full-name" placeholder="Full Name:" required />
+        </label>
+
+
+    <label for="email" id="email-label"> email:
+ 
+        <input id="email" type="email" name="my-email"   placeholder="Example@gmail.com:" required/>
+      </label>
+    <label  for="number" id="number-label">Phone number:
+      <input id="number"   min="200" max="1" placeholder="Number:" type="Number" required />
+    </label>
+  </fieldset>
+
+<fieldset>
+   How long did you use to complete the first project?
+   <select  id="dropdown">
+      <option value="1">one-day</option>
+      <option value="2">two-days</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    Duration of your internship?  
+      <label>
+        <input type="radio" id="radio-button" name="radio-button" value="1" />One month
+      </label>
+      <label>
+        <input type="radio" id="radio-button" name="radio-button" value="2" />
+      Two months
+      </label>
+      </fieldset>
+
+     <fieldset>
+    Languages you've come across so far:
+ <label>
+      <input type="checkbox" value="1" />HTML
+    </label>
+    <label>
+      <input type="checkbox" value="2">Javascript
+    </label>
+    <label>
+      <input type="checkbox" value="3">React
+    </label>
+</fieldset>
+
+    
+What are your challenges so far at space?
+  <textarea rows="6" cols="30" id="challenges" type="text" name="challenges" placeholder="challenges.."> </textarea>
+  <input type="submit" id="submit" value="Submit">
+  </fieldset>
+
+
+  </form>
+</body>
+
+</html>
